@@ -1,0 +1,11 @@
+id_cliente,tipo_dispositivo,usuario_sintetico,perfil,ssid_esperado,vlan_esperada,servicos_necessarios,observacao
+CLI-001,Notebook corporativo,ana.silva (sintetico),corporativo,C360-CORP,20,"DNS, ERP, Internet",Uso diario em escritorio
+CLI-002,Notebook corporativo,bruno.rocha (sintetico),corporativo,C360-CORP,20,"DNS, ERP, Internet",Home office hibrido
+CLI-003,Smartphone corporativo,carla.dias (sintetico),corporativo,C360-CORP,20,"DNS, Internet",Sem acesso a ERP por politica de dispositivo movel
+CLI-004,Impressora de rede,setor.financeiro (sintetico),corporativo,C360-CORP,20,"DNS, ERP",Dispositivo fixo sem mobilidade
+CLI-005,Notebook visitante,fornecedor.xpto (sintetico),visitante,C360-GUEST,40,"DNS, Internet",Acesso temporario de um dia
+CLI-006,Smartphone visitante,visitante.evento (sintetico),visitante,C360-GUEST,40,"DNS, Internet",Uso apenas durante reuniao
+CLI-007,Tablet recepcao,recepcao.frontdesk (sintetico),corporativo,C360-CORP,20,"DNS, ERP, Internet",Terminal fixo na recepcao
+CLI-008,Notebook auditoria externa,auditor.externo (sintetico),visitante,C360-GUEST,40,"DNS, Internet",Nao deve alcancar ERP nem gerencia dos APs
+CLI-009,AP-CORP-01 (gerencia),ti.wireless (sintetico),gerencia,fora-de-VLAN-cliente,gerencia,"Gerencia do AP","BSSID 02:36:00:00:20:01, canal 11, fora das redes de clientes"
+CLI-010,AP-GUEST-01 (gerencia),ti.wireless (sintetico),gerencia,fora-de-VLAN-cliente,gerencia,"Gerencia do AP","BSSID 02:36:00:00:40:01, canal 1, fora das redes de clientes"
