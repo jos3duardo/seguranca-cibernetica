@@ -1,0 +1,12 @@
+origem_ssid,origem_vlan,destino,servico_porta,permitido,justificativa
+C360-CORP,20,DNS interno,UDP/53,sim,Resolucao de nomes necessaria para todos os clientes corporativos
+C360-CORP,20,ERP (servidor interno),TCP/443,sim,Ativo critico de uso diario da equipe corporativa
+C360-CORP,20,Internet,TCP/443,sim,Navegacao padrao autorizada
+C360-CORP,20,C360-GUEST,qualquer,nao,Rede corporativa nao deve alcancar dispositivos de visitantes
+C360-CORP,20,VLAN gerencia (APs),qualquer,nao,Clientes nao devem alcancar a gerencia dos access points
+C360-GUEST,40,DNS interno,UDP/53,sim,Visitante precisa resolver nomes para navegar
+C360-GUEST,40,Internet,TCP/443,sim,Unico servico autorizado alem de DNS
+C360-GUEST,40,ERP (servidor interno),TCP/443,nao,Visitante nao pode alcancar ativo critico corporativo
+C360-GUEST,40,C360-CORP,qualquer,nao,Isolamento obrigatorio entre visitante e rede corporativa
+C360-GUEST,40,VLAN gerencia (APs),qualquer,nao,Visitante nao deve alcancar a gerencia dos access points
+Qualquer cliente,20 ou 40,VLAN gerencia (APs),qualquer,nao,Gerencia dos APs deve ficar fora do alcance de qualquer VLAN de cliente

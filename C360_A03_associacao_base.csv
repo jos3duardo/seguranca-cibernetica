@@ -1,0 +1,9 @@
+timestamp,ssid,bssid,canal,autenticacao,criptografia,cliente_id,rssi_dbm,status,observacao
+2026-08-31T10:41:02,C360-CORP,02:36:00:00:20:01,11,WPA2-Enterprise (802.1X),AES-CCMP,CLI-001,-52,associado,Associacao normal registrada pelo controlador
+2026-08-31T10:42:15,C360-CORP,02:36:00:00:20:01,11,WPA2-Enterprise (802.1X),AES-CCMP,CLI-002,-58,associado,Associacao normal registrada pelo controlador
+2026-08-31T10:47:33,C360-CORP,02:36:00:00:20:01,11,WPA2-Enterprise (802.1X),AES-CCMP,CLI-003,-61,associado,Associacao normal registrada pelo controlador
+2026-08-31T10:50:09,C360-CORP,02:36:00:00:20:01,11,WPA2-Enterprise (802.1X),AES-CCMP,CLI-004,-49,associado,"Dispositivo fixo, sinal estavel"
+2026-08-31T10:55:44,C360-GUEST,02:36:00:00:40:01,1,WPA2-Personal (PSK rotativa),AES-CCMP,CLI-005,-66,associado,Associacao normal registrada pelo controlador
+2026-08-31T10:58:21,C360-GUEST,02:36:00:00:40:01,1,WPA2-Personal (PSK rotativa),AES-CCMP,CLI-006,-70,associado,Associacao normal registrada pelo controlador
+2026-08-31T11:02:10,C360-CORP,02:36:00:00:20:01,11,WPA2-Enterprise (802.1X),AES-CCMP,CLI-007,-45,associado,Terminal fixo na recepcao
+2026-08-31T11:05:38,C360-GUEST,02:36:00:00:40:01,1,WPA2-Personal (PSK rotativa),AES-CCMP,CLI-008,-68,associado,"Auditor externo, sessao temporaria"
