@@ -1,0 +1,9 @@
+versao,ativo,ameaca,vulnerabilidade,impacto,probabilidade,risco,controle,responsavel,evidencia,risco_residual,limitacao_pendencia
+MODELO (formato de exemplo - nao e resposta pronta),Rede corporativa C360-CORP (autenticacao),Uso de protocolo de criptografia fraco ou senha unica compartilhada,Sem 802.1X uma senha unica pode vazar e dar acesso a qualquer pessoa,Alto,Media,Alto,"WPA2-Enterprise (802.1X) com autenticacao individual por usuario",Analista de risco (papel A),Configuracao testada no simulador + captura da associacao,Baixo - autenticacao por usuario reduz exposicao a senha unica,Nenhuma
+MODELO (formato de exemplo - nao e resposta pronta),Rede de visitantes C360-GUEST,Acesso indevido a ativos internos,Ausencia de segmentacao entre visitante e rede corporativa,Alto,Baixa,Medio,"VLAN 40 dedicada + fluxos bloqueados para VLAN 20 e gerencia",Operador do laboratorio (papel O),C360_A03_fluxos_wlan.csv + teste de isolamento,Baixo - isolamento validado por teste,Nenhuma
+"v0.3 - ENCONTRO A (preencher com riscos do desenho da rede, antes do inject)",,,,,,,,,,,
+"v0.3 - ENCONTRO A (preencher com riscos do desenho da rede, antes do inject)",,,,,,,,,,,
+"v0.3 - ENCONTRO A (preencher com riscos do desenho da rede, antes do inject)",,,,,,,,,,,
+v0.3 - ENCONTRO B (preencher so depois de receber o evento EVT-A03-02),,,,,,,,,,,
+v0.3 - ENCONTRO B (preencher so depois de receber o evento EVT-A03-02),,,,,,,,,,,
+v0.3 - ENCONTRO B (preencher so depois de receber o evento EVT-A03-02),,,,,,,,,,,
